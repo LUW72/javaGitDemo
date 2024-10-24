@@ -10,11 +10,10 @@ public class JavaGit {
         
         int fok = 7;
         boolean hidegVan = fok < HIDEG_HATAR;
-        String nemViszek = "Nem viszek kabátot";
-        String viszek = "Viszek kabátot";
+        String kiiras = "viszek kabátot";
         /* Ternális operátorral */
         
-        String kiiras = hidegVan ? viszek : nemViszek;
+        kiiras = hidegVan ? kiiras : "Nem" + kiiras;
         
         System.out.println(kiiras);
         
